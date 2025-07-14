@@ -8,7 +8,7 @@ edition = "2021"
 panic = 'abort'
 
 [build-dependencies]
-built = { version = "0.7.0", features = ["cargo-lock", "dependency-tree", "git2", "chrono", "semver"] }
+built = { version = "0.7.5", features = ["cargo-lock", "dependency-tree", "git2", "chrono", "semver"] }
 
 [dependencies]
 built = { version = "0.7.0", features = ["cargo-lock", "dependency-tree", "git2", "chrono", "semver"] }
