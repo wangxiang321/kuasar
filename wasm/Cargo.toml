@@ -10,7 +10,7 @@ wasmedge = ["wasmedge-sdk"]
 wasmedge_wasi_nn = ["wasmedge-sdk/wasi_nn"]
 
 [build-dependencies]
-built = { version = "0.7.0", features = ["cargo-lock", "dependency-tree", "git2", "chrono", "semver"] }
+built = { version = "0.7.5", features = ["cargo-lock", "dependency-tree", "git2", "chrono", "semver"] }
 
 [dependencies]
 env_logger = "0.9.0"
